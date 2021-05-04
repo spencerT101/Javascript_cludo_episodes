@@ -1,7 +1,7 @@
 
 // js
 
-// EPISODE 1
+// #Episode 1
 
 // Prediction. Below code will print 'The murderer is Miss Scarlet',
 // Javascript object is written clearly using constant method.
@@ -22,7 +22,7 @@
 // const verdict = declareMurderer();
 // console.log(verdict);
 
-// Printed to terminalsuccessfully.
+// Printed to terminal successfully.
 
 
 // EPISODE 2
@@ -63,8 +63,9 @@
 // const secondVerdict = `The murderer is ${murderer}.`;
 // console.log('Second Verdict: ', secondVerdict);
 
-// incorrect prediction - printed to terminal successfully, first verdict calls function
+// incorrect prediction - printed to terminal successfully, first verdict calls declareMurderer function
 // second verdict calls the LET value outside of function using interpolation.
+//Uses LET variable not Constant so it can create a new variable that exists inside the dM function.
 
 
 // #Episode 4
@@ -140,7 +141,7 @@
 // const verdict = declareMurderer();
 // console.log(verdict);
 
-// Prediction wrong. Failed to properly notice const plotTwist is inside
+// Prediction wrong murderer is Mrs.White. Failed to properly notice const plotTwist is inside
 // the changerMurderer constant function.
 // when ever changeMurderer is called plotTwist will also run aswell.
 
@@ -176,6 +177,8 @@
 // console.log(verdict);
 
 // prediction wrong - murderer was Mr Green.
+// Plot twist and unexpected outcome sit inside Changer Murderer function.
+// plotTwist uses LET variable which stays within the blockscope, and looks at changeMurderer.
 
 
 
